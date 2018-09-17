@@ -40,7 +40,7 @@ public class GameManager {
 		int whoseTurn = pile.findStarter(p1, p2, p3, p4);
 		int turnCounter = 1;
 		
-		int iter = 0;
+//		int iter = 0;
 		
 		do {
 			pile.newRound(whoseTurn, p1, p2, p3, p4);
@@ -87,7 +87,7 @@ public class GameManager {
 				whoseTurn = 1;
 			}
 			
-			iter++;
+//			iter++;
 			turnCounter++;
 			System.out.println("*** END OF TURN ***************************************************************\n");
 			for (int i = 0; i < 100; i++) {
