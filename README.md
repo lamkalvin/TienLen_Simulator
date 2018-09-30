@@ -14,7 +14,7 @@ This program is a console-based simulator of Tien Len, a Vietnamese card game of
     GameManager.java
     Game13.java
     ```
-2. Open a command prompt (or terminal) and change directories to where the files listed above were downloaded to. Compile all the files and ensure there is a .class file for each of the listed files.
+2. Open a command prompt (or terminal) and change directories to where the files listed above were downloaded to. Compile all the files using the `javac *.java` and ensure there is a .class file for each of the listed files.
 3. To run the simulator, type on the command line: `java Game13`
 
 ### Running the Tester Files:
@@ -26,8 +26,8 @@ This program is a console-based simulator of Tien Len, a Vietnamese card game of
     ```
 - These testers were basic tests the functionality of the Card class, Deck class, and Player class.
 1. To run these testers, first uncomment any line that does not have `Test # - ` in it.
-2. Compile the test file you would like to use.
-3. Run the tester by typing: `java <name of file>` (ie. `java TestCard`).
+2. If you haven't already, compile the test file you would like to use and make sure there is a .class file for it.
+3. Run the tester by typing: `java <name of tester file>` (ie. `java TestCard`).
     
 ## Game Rules:
 _Note: The rules you are about to read for this simulator is adopted from the rules listed on the **Tien Len wiki page** and covers a simplified version of the actual Tien Len game. In other words, not all of the official rules are present in this game. The full game details can be read [here](en.wikipedia.org/wiki/Tiến_lên). Additionally, these rules can be read again by entering 2 (ie. 2 \<enter>\) at the home screen of the simulator._
