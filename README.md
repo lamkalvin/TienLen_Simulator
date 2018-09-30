@@ -30,7 +30,7 @@ This program is a console-based simulator of Tien Len, a Vietnamese card game of
 3. Run the tester by typing: `java <name of tester file>` (ie. `java TestCard`).
     
 ## Game Rules:
-_Note: The rules you are about to read for this simulator is adopted from the rules listed on the **Tien Len wiki page** and covers a simplified version of the actual Tien Len game. In other words, not all of the official rules are present in this game. The full game details can be read [here](en.wikipedia.org/wiki/Tiến_lên). Additionally, these rules can be read again by entering 2 (ie. 2 \<enter>\) at the home screen of the simulator._
+_Note: The rules you are about to read for this simulator is adopted from the rules listed on the **Tien Len wiki page** and covers a simplified version of the actual Tien Len game. In other words, not all of the official rules are present in this game. The full game details can be read [here](https://en.wikipedia.org/wiki/Ti%E1%BA%BFn_l%C3%AAn). Additionally, these rules can be read again by entering 2 (ie. 2 \<enter>\) at the home screen of the simulator._
     
 ### Cards:
 - Standard 52 Playing Cards
