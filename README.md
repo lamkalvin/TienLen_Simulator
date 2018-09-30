@@ -14,7 +14,7 @@ This program is a console-based simulator of Tien Len, a Vietnamese card game of
     GameManager.java
     Game13.java
     ```
-2. Open a command prompt (or terminal) and change directories to where the files listed above were downloaded to. Compile all the files using the `javac *.java` and ensure there is a .class file for each of the listed files.
+2. Open a command prompt (or terminal) and change directories to where the files listed above were downloaded to. Compile all the files using the `javac *.java` command and ensure there is a .class file for each of the listed files.
 3. To run the simulator, type on the command line: `java Game13`
 
 ### Running the Tester Files:
