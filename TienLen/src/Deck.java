@@ -105,7 +105,7 @@ public class Deck {
 		int midSize = deck.size()/2;
 		ArrayList<Card> LHalf = new ArrayList<Card>(midSize);
 		ArrayList<Card> RHalf = new ArrayList<Card>(size - midSize);
-		Random randomizer = new Random(8);
+		Random randomizer = new Random();
 		
 		for (int num = 0; num < reps; num++) {
 			
@@ -146,7 +146,7 @@ public class Deck {
 	}
 	
 	public void hinduShuffle(int reps) {
-		Random randomizer = new Random(8);
+		Random randomizer = new Random();
 		int randNum;
 		int lBound, uBound;
 		int range;

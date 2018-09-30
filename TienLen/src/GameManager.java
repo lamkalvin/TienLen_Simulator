@@ -17,7 +17,6 @@ public class GameManager {
 		deck = new Deck();
 		prepareDeck();
 		deck.sortDeck();
-		//deck.printDeck();
 		
 		pile = new PlayedPile();
 		p1 = new Player(false);
@@ -40,7 +39,6 @@ public class GameManager {
 		int whoseTurn = pile.findStarter(p1, p2, p3, p4);
 		int turnCounter = 1;
 		
-//		int iter = 0;
 		
 		do {
 			pile.newRound(whoseTurn, p1, p2, p3, p4);
@@ -87,13 +85,12 @@ public class GameManager {
 				whoseTurn = 1;
 			}
 			
-//			iter++;
 			turnCounter++;
 			System.out.println("*** END OF TURN ***************************************************************\n");
 			for (int i = 0; i < 100; i++) {
 				System.out.println();
 			}
-		} while (/*iter != 10*/ !pile.isGameOver(p1, p2, p3, p4));
+		} while (!pile.isGameOver(p1, p2, p3, p4));
 		
 	}
 	
