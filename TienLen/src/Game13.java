@@ -63,13 +63,13 @@ public class Game13 {
 		
 		System.out.println("Cards:");
 		System.out.println("> Standard 52 Playing Cards");
-		System.out.println("> Ranking of cards form highest to lowest: 2 A K Q J 10 9 8 7 6 5 4 3");
+		System.out.println("> Ranking of cards from highest to lowest: 2 A K Q J 10 9 8 7 6 5 4 3");
 		System.out.println("> Ranking of suites from highest to lowest: Hearts, Diamonds, Clubs, Spades");
 		
 		System.out.println();
 		
 		System.out.println("Legal Combinations:");
-		System.out.println("> Single: A single played card. Singles can be defeated by singles that are higher in rank.");
+		System.out.println("> Single: A single played card. Singles can only be defeated by singles that are higher in rank.");
 		System.out.println("> Double: A combination of exactly 2 cards of the same rank. A double can only be defeated by a pair of a higher rank than the highest card of the previous pair.");
 		System.out.println("> Triple: A combination of exactly 3 cards of the same rank. They can only be defeated by a triple of a higher rank.");
 		System.out.println("> Straight: A combination of at least 3 cards that are in numerical sequence. The order of the cards must be in a consecutive order. "
@@ -78,15 +78,19 @@ public class Game13 {
 		System.out.println();
 		
 		System.out.println("Twos and Bombs:");
-		System.out.println("> 2s are the strongest card and can only be played as a single.");
+		System.out.println("> 2's are the strongest card and can only be played as a single.");
 		System.out.println("> The only way to beat a 2 is with a Bomb - 3 doubles in numerical sequence. ie. 3-3-4-4-5-5");
+		System.out.println("> You can beat a bomb with another bomb of a higher rank than the highest card of the previous pair.");
 		
 		System.out.println();
 		
 		System.out.println("Play:");
-		System.out.println("> Each player is dealth 13 cards.");
+		System.out.println("> Each player is dealt 13 cards.");
 		System.out.println("> The person with the 3 of spades will go first.");
+		System.out.println("> The direction of play is decided according to the players' preferences");
 		System.out.println("> In a turn, a player will decide to play or not (called passing). A player who passes cannot play anymore until the remaining players pass.");
+		System.out.println("> If a player chooses to play, they may only play a combination that matches the combination of the current round" + 
+				" \n(ie. If the player who started the round played a single, then only singles may be played until the next round starts).");
 		System.out.println("> When a player plays a combination and everyone else passes, he or she has control and can play any leagl combination.");
 		System.out.println("> The first player to shed all 13 cards is the winner.");
 		
